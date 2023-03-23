@@ -1,0 +1,12 @@
+
+.banner{
+    margin: 10% 0;  
+    width: 98%;
+    height:85vh;       
+    background-image: url(img/banner.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;       
+    
+
+}

@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Marvel&display=swap');
+
+.background{        
+        margin: 5px;
+        width: 98%;
+        height:85vh;
+        background-image: url(img/background.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;   
+        display: flex;    
+        flex-direction: column;
+        align-items: center;
+        padding: 9%;
+
+    }
+
+    .divp{
+        position: absolute;
+        top: 45%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        line-height: 180%;
+        
+
+    }
+
+    .p{
+        position: relative;             
+        font-size: 7vh;
+        color: #8ec8ea;           
+        font-weight: bold;   
+        font-family: 'Marvel', sans-serif;     
+        letter-spacing: 5px;            
+      
+          
+    }
+
+    .divbutton{
+        position: absolute;
+        bottom: 15%;        
+        width: 20%;       
+    }
+
+    .divbutton :hover{
+        scale: 1.1;
+        transition: 0.2s;
+    }
+
+    
+
+    .button{       
+       position: relative;
+       display: flex;      
+       justify-content: center;      
+       border-radius: none !important; 
+       width: 100%;           
+       align-self: flex-end;  
+       background-color: #305267 !important;         
+       color: #ffffff !important;      
+      
+        
+    }
+
+   
+
+   
